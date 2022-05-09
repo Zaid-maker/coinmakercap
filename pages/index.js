@@ -1,6 +1,6 @@
 import Head from 'next/head'
 //import CMCtable from '../components/cmc-table/cmcTable'
-import Header from '../components/header'
+import Header from '../components/Header'
 //import Trending from '../components/trending'
 //import SwapCryptoModal from '../components/swapCryptoModal'
 
