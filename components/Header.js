@@ -1,5 +1,5 @@
 import Image from 'next/image'
-//import Search from '../assets/svg/search'
+import Search from '../assets/svg/search'
 import { ConnectButton } from 'web3uikit'
 import { useContext } from 'react'
 //import { CoinMarketContext } from '../context/context'
@@ -19,6 +19,13 @@ const styles = {
 const Header = () => {
   return (
     <div className={styles.header}>
+      <Image
+        alt=""
+        src="https://s2.coinmarketcap.com/static/cloud/img/coinmarketcap_white_1.svg"
+        width={220}
+        height={220}
+      />
+
       <div className={styles.headerWrapper}>
         <nav className={styles.nav}>
           <div className={styles.navItem}>
@@ -59,9 +66,9 @@ const Header = () => {
         </nav>
 
         <div className="flex items-center">
-          {/* <ConnectButton /> */}
+          <ConnectButton />
           <div className={styles.inputContainer}>
-            {/* <Search /> */}
+            <Search />
             <input className={styles.input} placeholder="Search" />
           </div>
         </div>
