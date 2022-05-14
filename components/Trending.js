@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Rate from './cmc-table/rate'
+import Rate from './cmc-table/Rate'
 //import fire from "../assets/fire.png"
 //import btc from "../assets/btc.png"
 //import usdt from "../assets/usdt.png"
