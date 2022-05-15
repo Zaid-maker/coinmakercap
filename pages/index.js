@@ -1,5 +1,5 @@
 import Head from 'next/head'
-//import CMCtable from '../components/cmc-table/cmcTable'
+import CMCtable from '../components/cmc-table/cmcTable'
 import Header from '../components/Header'
 import Trending from '../components/Trending'
 //import SwapCryptoModal from '../components/swapCryptoModal'
@@ -17,7 +17,7 @@ export default function Home() {
       <div className="mt-10" />
       <Trending />
       <div className="mt-20" />
-      {/* <CMCtable /> */}
+      <CMCtable />
     </div>
   )
 }
