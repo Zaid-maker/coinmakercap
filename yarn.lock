@@ -6134,10 +6134,10 @@ web3-utils@1.7.3, web3-utils@^1.7.0:
     randombytes "^2.1.0"
     utf8 "3.0.0"
 
-web3uikit@^0.1.145:
-  version "0.1.145"
-  resolved "https://registry.yarnpkg.com/web3uikit/-/web3uikit-0.1.145.tgz#2bcfab9c087edb8c2acd82f0a36cfee96dd6f0c8"
-  integrity sha512-R2WcdFAzl/voH5W0oXaOAz2HxYynN2f51XqFnGRmpwOUNCM+i5YZYJLAma7I/ce3JvhwASbpgmvlTSSsQ/k3jw==
+web3uikit@^0.1.154:
+  version "0.1.154"
+  resolved "https://registry.yarnpkg.com/web3uikit/-/web3uikit-0.1.154.tgz#a5cfdddbc724f6b41dd40d581e37810f75918e9a"
+  integrity sha512-FRgPE1sYhNUBXyCe5wxXr1gaIIjxtbalrLYuNfFx5UbTVVqbFKIWmX3EKoEVFHRPs9FgcMcOujKL9E7kBA9ULA==
   dependencies:
     "@storybook/theming" "^6.4.21"
     "@walletconnect/web3-provider" "^1.7.1"
