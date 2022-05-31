@@ -892,25 +892,25 @@
     tslib "^2.3.1"
     webcrypto-core "^1.7.2"
 
-"@sanity/client@^3.3.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-3.3.0.tgz#0b01b1ee25f9d12e0fd9d119fe752f0aeb18843a"
-  integrity sha512-ecIRsV+IncI1P9I6ZdB3xKLBpWVggqtiY0RLWeT3RWaP4cX6lXzD5fPknaXaBnCxtIr9ZhqZVqpRkyjrUlHe0Q==
+"@sanity/client@^3.3.1":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-3.3.1.tgz#d07ff73557be2eef35ecc5b09e0347d0bdfe859a"
+  integrity sha512-kSnOSQaiCpdP0JnfC0MXebuQ/jM6/HCqyMdQ+/nxeqnbxHgXEWovcTP6x5Aom7485/vFdzL7NPsUrCOvye+rcA==
   dependencies:
-    "@sanity/eventsource" "^3.0.2"
+    "@sanity/eventsource" "^4.0.0"
     "@sanity/generate-help-url" "^3.0.0"
     get-it "^6.0.1"
     make-error "^1.3.0"
     object-assign "^4.1.1"
     rxjs "^6.0.0"
 
-"@sanity/eventsource@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@sanity/eventsource/-/eventsource-3.0.2.tgz#483a75e9118aa510957b23a638be560d926dc4d3"
-  integrity sha512-cg0NTs75gbW84tpKFRBeFLbG6hSLp9U5mwLaGaMjuqP7DkfXbpkZsgRPPnRRVj1M+o32eiGZ8xQaLop2Ixn7yw==
+"@sanity/eventsource@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@sanity/eventsource/-/eventsource-4.0.0.tgz#ec9c352e87a2f79db8d25eedbb009ced21ec2e97"
+  integrity sha512-W0AD141JILOySJ177j2+HTr5k4tWNyXjGsr0dDXJzpqlwZ09J/uPHI73hMe5XtoFumPa9Bj6jy8uu2qdZX84NQ==
   dependencies:
     event-source-polyfill "1.0.25"
-    eventsource "^1.0.6"
+    eventsource "^2.0.2"
 
 "@sanity/generate-help-url@^3.0.0":
   version "3.0.0"
@@ -3313,12 +3313,10 @@ events@^3.0.0, events@^3.3.0:
   resolved "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
   integrity sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==
 
-eventsource@^1.0.6:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/eventsource/-/eventsource-1.1.0.tgz#00e8ca7c92109e94b0ddf32dac677d841028cfaf"
-  integrity sha512-VSJjT5oCNrFvCS6igjzPAt5hBzQ2qPBFIbJ03zLI9SE0mxwZpMw6BfJrbFHm1a141AavMEB8JHmBhWAd66PfCg==
-  dependencies:
-    original "^1.0.0"
+eventsource@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/eventsource/-/eventsource-2.0.2.tgz#76dfcc02930fb2ff339520b6d290da573a9e8508"
+  integrity sha512-IzUmBGPR3+oUG9dUeXynyNmf91/3zUSJg1lCktzKw47OXuhco54U3r9B7O4XX+Rb1Itm9OZ2b0RkTs10bICOxA==
 
 evp_bytestokey@^1.0.0, evp_bytestokey@^1.0.3:
   version "1.0.3"
@@ -4619,13 +4617,6 @@ once@^1.3.0, once@^1.3.1, once@^1.4.0:
   dependencies:
     wrappy "1"
 
-original@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/original/-/original-1.0.2.tgz#e442a61cffe1c5fd20a65f3261c26663b303f25f"
-  integrity sha512-hyBVl6iqqUOJ8FqRe+l/gS8H+kKYjrEndd5Pm1MfBtsEKA038HkkdbAl/72EAXGyonD/PFsvmVG+EvcIpliMBg==
-  dependencies:
-    url-parse "^1.4.3"
-
 os-browserify@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/os-browserify/-/os-browserify-0.3.0.tgz#854373c7f5c2315914fc9bfc6bd8238fdda1ec27"
@@ -5796,7 +5787,7 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-url-parse@^1.1.9, url-parse@^1.4.3:
+url-parse@^1.1.9:
   version "1.5.10"
   resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.10.tgz#9d3c2f736c1d75dd3bd2be507dcc111f1e2ea9c1"
   integrity sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ==
