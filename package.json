@@ -13,7 +13,7 @@
     "gun": "^0.2020.1237",
     "magic-sdk": "^8.1.1",
     "moralis": "^1.7.0",
-    "next": "latest",
+    "next": "^13.5.6",
     "react": "^17.0.2",
     "react-chartjs-2": "^4.1.0",
     "react-dom": "^17.0.2",
